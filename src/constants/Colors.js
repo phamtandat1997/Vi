@@ -1,0 +1,52 @@
+// https://www.npmjs.com/package/color
+import Color from 'color';
+
+const primary = '#f5171a';
+const secondary = '#124DAE';
+
+export default {
+  primary: primary,
+  primaryConstraint: '#ffffff',
+  primaryDark: '#B80000',
+  darkPrimary: Color(primary).darken(0.5).hex(),
+  lightPrimary: Color(primary).lighten(0.5).hex(),
+  secondary: secondary,
+  secondaryConstraint: '#ffffff',
+  darkSecondary: Color(secondary).darken(0.5).hex(),
+  lightSecondary: Color(secondary).lighten(0.5).hex(),
+  textPrimary: primary,
+  textSecondary: secondary,
+  textPrimaryContrast: '#ffffff',
+  textSecondaryContrast: '#ffffff',
+  warm: '#f44336',
+  indigo: '#3f51b5',
+  indigo50: '#e8eaf6',
+  green: '#4caf50',
+  green50: '#e8f5e9',
+  lightGreen: Color('#4caf50').lighten(0.5).hex(),
+  darkGreen: Color('#4caf50').darken(0.5).hex(),
+  grey: '#9e9e9e',
+  lightGrey: Color('#9e9e9e').lighten(0.5).hex(),
+  orange: '#ff9800',
+  orange50: '#fff3e0',
+  darkOrange: '#ff5722',
+  lightOrange: Color('#ff9800').lighten(0.5).hex(),
+  accent50: '#e1f5fe',
+  lightAccent: '#b3e5fc',
+  yellow: '#ffeb3b',
+  navy: '#3c4252',
+  deepPurple: '#673ab7',
+  greyPrimary: '#e9eaef',
+  blackPrimary: '#1d1d1d',
+  greyBorder: '#E6F1E7',
+  greySecondary: '#eaeaea',
+  blackContrast: '#31394B',
+  textDark: '#686868',
+  success: '#4e9e2f',
+  danger: '#FF2D00',
+  unfilledDanger: '#df3329',
+  unfilledSuccess: '#438B28',
+  buttonPrimary: '#4e9e2f',
+  buttonSecondary: '#1d72a8',
+  blackOrigin: '#000'
+};
